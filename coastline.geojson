@@ -631,6 +631,26 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Segment additionnel",
+        "note": "43°28'51\"N , 007°06'00\"E -> 43°29'10\"N , 007°07'18\"E"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1,
+            43.48083333333334
+          ],
+          [
+            7.121666666666666,
+            43.486111111111114
+          ]
+        ]
+      }
     }
   ]
 }
