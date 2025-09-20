@@ -1,14 +1,41 @@
 {
-  "type": "Feature",
-  "properties": {
-    "name": "W3",
-    "aeroway": "holding_position"
-  },
-  "geometry": {
-    "type": "LineString",
-    "coordinates": [
-      [7.22839, 43.66242],
-      [7.22861, 43.66258]
-    ]
-  }
+"type": "FeatureCollection",
+"name": "points",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": "29861977", "ref": "C1", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2089474, 43.6567618 ] } },
+{ "type": "Feature", "properties": { "osm_id": "29862005", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2069491, 43.6552909 ] } },
+{ "type": "Feature", "properties": { "osm_id": "29862011", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2071621, 43.6525216 ] } },
+{ "type": "Feature", "properties": { "osm_id": "30012925", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"intermediate\"" }, "geometry": { "type": "Point", "coordinates": [ 7.22631, 43.6656748 ] } },
+{ "type": "Feature", "properties": { "osm_id": "30579773", "ref": "J1", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2271739, 43.6697713 ] } },
+{ "type": "Feature", "properties": { "osm_id": "30579875", "ref": "G2", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.221982, 43.6635463 ] } },
+{ "type": "Feature", "properties": { "osm_id": "1459329486", "ref": "A3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2061372, 43.6505462 ] } },
+{ "type": "Feature", "properties": { "osm_id": "1459329507", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2047898, 43.651037 ] } },
+{ "type": "Feature", "properties": { "osm_id": "1459329516", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2050682, 43.6511016 ] } },
+{ "type": "Feature", "properties": { "osm_id": "1459329574", "ref": "B3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.208907, 43.6525648 ] } },
+{ "type": "Feature", "properties": { "osm_id": "1459329604", "ref": "B2", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2080683, 43.6530957 ] } },
+{ "type": "Feature", "properties": { "osm_id": "1459329712", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2182942, 43.6608826 ] } },
+{ "type": "Feature", "properties": { "osm_id": "1459396079", "ref": "C1", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2087637, 43.6567016 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3733070135", "ref": "H3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2269986, 43.6658238 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3976123378", "ref": "G2", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2230238, 43.6636976 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3976123389", "ref": "G1", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2205811, 43.6650787 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3976126080", "ref": "W3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2018809, 43.6474531 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009051", "ref": "W3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2018346, 43.6474124 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009052", "ref": "Q3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2027107, 43.6480506 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009053", "ref": "Q3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2027538, 43.6480851 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009054", "ref": "A3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2060905, 43.6505126 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009350", "ref": "G1", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2208112, 43.6651584 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009857", "ref": "A2", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2050986, 43.6512313 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009861", "ref": "A1", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2033759, 43.6524784 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009862", "ref": "B3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2088591, 43.6525263 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009863", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.208495, 43.6537449 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009864", "ref": "C2", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2094404, 43.6545745 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977009986", "ref": "F1", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2170985, 43.6624743 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977010165", "ref": "H3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2270848, 43.6658906 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977010192", "ref": "H2", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2260506, 43.6666414 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3977010208", "ref": "H1", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2244501, 43.6678009 ] } },
+{ "type": "Feature", "properties": { "osm_id": "7417912288", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.221358, 43.6618512 ] } },
+{ "type": "Feature", "properties": { "osm_id": "11360422659", "ref": "H3", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"runway\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2271183, 43.6659139 ] } },
+{ "type": "Feature", "properties": { "osm_id": "12948895659", "other_tags": "\"aeroway\"=>\"holding_position\",\"holding_position:type\"=>\"intermediate\"" }, "geometry": { "type": "Point", "coordinates": [ 7.2195866, 43.6660428 ] } }
+]
 }
