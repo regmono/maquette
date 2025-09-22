@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "name": "CTR_LFSB_Official_Synthesized",
+  "name": "CTR_LFSB_Simplified",
   "crs": {
     "type": "name",
     "properties": {
@@ -11,19 +11,13 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CTR LFSB"
+        "name": "CTR LFSB Simplified"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [ 7.593333, 47.691944 ],
-            [ 7.607778, 47.670833 ],
-            [ 7.668333, 47.591944 ],
-            [ 7.671944, 47.5875 ],
-            [ 7.674167, 47.584444 ],
-            [ 7.686111, 47.568889 ],
-            [ 7.685278, 47.566389 ],
             [ 7.667778, 47.535833 ],
             [ 7.6536, 47.53128 ],
             [ 7.6389, 47.52796 ],
