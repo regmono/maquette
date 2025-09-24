@@ -1,57 +1,81 @@
 {
-"type": "FeatureCollection",
-"features": [
-{
-"type": "Feature",
-"properties": {
-"name": "BISBO to FNA04A"
-},
-"geometry": {
-"type": "LineString",
-"coordinates": [
-[7.163472, 43.462333],
-[7.156511, 43.510369]
-]
-}
-},
-{
-"type": "Feature",
-"properties": {
-"name": "FNA04A to MN04A"
-},
-"geometry": {
-"type": "LineString",
-"coordinates": [
-[7.156511, 43.510369],
-[7.153889, 43.561944]
-]
-}
-},
-{
-"type": "Feature",
-"properties": {
-"name": "MN04A to LEMPU"
-},
-"geometry": {
-"type": "LineString",
-"coordinates": [
-[7.153889, 43.561944],
-[6.955389, 43.470139]
-]
-}
-},
-{
-"type": "Feature",
-"properties": {
-"name": "LEMPU to FN04L"
-},
-"geometry": {
-"type": "LineString",
-"coordinates": [
-[6.955389, 43.470139],
-[7.004611, 43.506222]
-]
-}
-}
-]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Approche RNP A RWY 04 (via NERAS)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.626278, 43.254278],
+          [7.538556, 43.380806],
+          [7.451694, 43.397194],
+          [7.158833, 43.510556],
+          [7.153889, 43.562111]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BISBO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.538556, 43.380806]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FN04A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.158833, 43.510556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MN04A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.153889, 43.562111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MN504"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.451694, 43.397194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MN512"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.675278, 43.361944]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NERAS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.626278, 43.254278]
+      }
+    }
+  ]
 }
