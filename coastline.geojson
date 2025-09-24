@@ -34,21 +34,21 @@
         "runway": "31R",
         "segment": "THR→FAF",
         "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.43133,
-        "thr_lon": 5.22267,
-        "faf_lat": 43.379917,
-        "faf_lon": 5.295722
+        "thr_lat": 43.427261111,
+        "thr_lon": 5.228455556,
+        "faf_lat": 43.379916667,
+        "faf_lon": 5.295722222
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            5.22267,
-            43.43133
+            5.228455556,
+            43.427261111
           ],
           [
-            5.295722,
-            43.379917
+            5.295722222,
+            43.379916667
           ]
         ]
       }
@@ -113,20 +113,72 @@
         "segment": "THR→FAF",
         "approach": "ILS Z / LOC Z",
         "thr_lat": 47.595,
-        "thr_lon": 7.525667,
-        "faf_lat": 47.35838888888889,
-        "faf_lon": 7.689416666666667
+        "thr_lon": 7.525666667,
+        "faf_lat": 47.358388889,
+        "faf_lon": 7.689416667
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.525667,
+            7.525666667,
             47.595
           ],
           [
-            7.689416666666667,
-            47.35838888888889
+            7.689416667,
+            47.358388889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFMN",
+        "runway": "22R",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 43.668544444,
+        "thr_lon": 7.227061111,
+        "faf_lat": 43.659972222,
+        "faf_lon": 7.335222222
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.227061111,
+            43.668544444
+          ],
+          [
+            7.335222222,
+            43.659972222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFML",
+        "runway": "13L",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 43.449138889,
+        "thr_lon": 5.197316667,
+        "faf_lat": 43.589861111,
+        "faf_lon": 4.996194444
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.197316667,
+            43.449138889
+          ],
+          [
+            4.996194444,
+            43.589861111
           ]
         ]
       }
@@ -138,8 +190,8 @@
         "runway": "17L",
         "segment": "THR→FAF",
         "approach": "ILS Z / LOC Z",
-        "thr_lat": 45.732527778,
-        "thr_lon": 5.094111111,
+        "thr_lat": 45.734941667,
+        "thr_lon": 5.091869444,
         "faf_lat": 45.847861111,
         "faf_lon": 5.078111111
       },
@@ -147,8 +199,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.094111111,
-            45.732527778
+            5.091869444,
+            45.734941667
           ],
           [
             5.078111111,
@@ -186,34 +238,6 @@
     {
       "type": "Feature",
       "properties": {
-        "icao": "LFML",
-        "runway": "13L",
-        "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.449138889,
-        "thr_lon": 5.197316667,
-        "faf_lat": 43.589861111,
-        "faf_lon": 4.996194444,
-        "dthr_lat": 43.447013889,
-        "dthr_lon": 5.200338889
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.197316667,
-            43.449138889
-          ],
-          [
-            4.996194444,
-            43.589861111
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "icao": "LFSB",
         "runway": "15",
         "segment": "THR→FAF",
@@ -221,8 +245,7 @@
         "thr_lat": 47.617683333,
         "thr_lon": 7.509875,
         "faf_lat": 47.757861111,
-        "faf_lon": 7.411166667,
-        "faf_alt_ft": 4000
+        "faf_lon": 7.411166667
       },
       "geometry": {
         "type": "LineString",
