@@ -213,24 +213,24 @@
       "type": "Feature",
       "properties": {
         "icao": "LFBO",
-        "runway": "14R",
+        "runway": "14L",
         "segment": "THR→FAF",
         "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.642444444,
-        "thr_lon": 1.349583333,
-        "faf_lat": 43.746555556,
-        "faf_lon": 1.238888889
+        "thr_lat": 43.637356,
+        "thr_lon": 1.3576,
+        "faf_lat": 43.74,
+        "faf_lon": 1.250444444
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            1.349583333,
-            43.642444444
+            1.3576,
+            43.637356
           ],
           [
-            1.238888889,
-            43.746555556
+            1.250444444,
+            43.74
           ]
         ]
       }
