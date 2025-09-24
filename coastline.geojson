@@ -6,96 +6,145 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.0669, 43.5761],  // IAF NERAS
-          [7.0972, 43.5936],  // IF NC041
-          [7.1500, 43.6211],  // FAF NC042
-          [7.1831, 43.6389],  // PIVUS
-          [7.2019, 43.6489],  // MAGEC (MAPt)
-          [7.2150, 43.6653]   // RWY 04L Threshold
+          [7.0669, 43.5761],  // NERAS (IAF)
+          [7.0972, 43.5936]   // NC041 (IF)
         ]
       },
       "properties": {
-        "name": "RNAV (GNSS) RWY 04L Approach",
-        "airport": "LFMN",
-        "procedure": "RNPA 04L"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.0669, 43.5761]
-      },
-      "properties": {
-        "name": "NERAS",
-        "type": "IAF",
+        "name": "Segment Initial NERAS-NC041",
+        "phase": "Initial Approach",
         "altitude": "3000 ft",
-        "description": "Initial Approach Fix"
+        "track": "043°"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [7.0972, 43.5936]
+        "type": "LineString",
+        "coordinates": [
+          [7.0972, 43.5936],  // NC041 (IF)
+          [7.1500, 43.6211]   // NC042 (FAF)
+        ]
       },
       "properties": {
-        "name": "NC041",
-        "type": "IF",
+        "name": "Segment Intermédiaire NC041-NC042",
+        "phase": "Intermediate Approach",
         "altitude": "3000 ft",
-        "description": "Intermediate Fix"
+        "track": "043°"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [7.1500, 43.6211]
+        "type": "LineString",
+        "coordinates": [
+          [7.1500, 43.6211],  // NC042 (FAF)
+          [7.1831, 43.6389]   // PIVUS
+        ]
       },
       "properties": {
-        "name": "NC042",
-        "type": "FAF",
-        "altitude": "3000 ft",
-        "description": "Final Approach Fix"
+        "name": "Segment Final FAF-PIVUS",
+        "phase": "Final Approach",
+        "altitude_start": "3000 ft",
+        "altitude_end": "1640 ft",
+        "track": "043°",
+        "glide_path": "3.00°"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [7.1831, 43.6389]
+        "type": "LineString",
+        "coordinates": [
+          [7.1831, 43.6389],  // PIVUS
+          [7.2019, 43.6489]   // MAGEC (MAPt)
+        ]
       },
       "properties": {
-        "name": "PIVUS",
-        "type": "Waypoint",
-        "altitude": "1640 ft",
-        "description": "Step-down Fix"
+        "name": "Segment PIVUS-MAGEC",
+        "phase": "Final Approach Continuation",
+        "altitude_start": "1640 ft",
+        "altitude_end": "570 ft (DA)",
+        "track": "043°",
+        "glide_path": "3.00°"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [7.2019, 43.6489]
+        "type": "LineString",
+        "coordinates": [
+          [7.2019, 43.6489],  // MAGEC (MAPt)
+          [7.2150, 43.6653]   // Seuil 04L
+        ]
       },
       "properties": {
-        "name": "MAGEC",
-        "type": "MAPt",
-        "altitude": "570 ft",
-        "description": "Missed Approach Point"
+        "name": "Segment MAGEC-Seuil",
+        "phase": "Visual Segment",
+        "altitude_start": "570 ft",
+        "altitude_end": "12 ft",
+        "track": "043°",
+        "distance": "0.9 NM"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [7.2150, 43.6653]
+        "type": "LineString",
+        "coordinates": [
+          [7.2019, 43.6489],  // MAGEC (début remise de gaz)
+          [7.2200, 43.6600],  // Point intermédiaire
+          [7.2100, 43.6800],  // Virage initial
+          [7.1800, 43.7000],  // Montée vers NERAS
+          [7.1200, 43.6800],  
+          [7.0669, 43.5761]   // Retour NERAS
+        ]
       },
       "properties": {
-        "name": "04L",
-        "type": "Runway Threshold",
-        "elevation": "12 ft",
-        "description": "Runway 04L Threshold LFMN"
+        "name": "Trajectoire de remise de gaz",
+        "phase": "Missed Approach",
+        "altitude_initial": "570 ft",
+        "altitude_final": "3000 ft",
+        "instruction": "Montée 3000 ft, virage à gauche direct NERAS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.9500, 43.5200],  // Point d'entrée depuis STAR
+          [7.0000, 43.5400],  
+          [7.0400, 43.5600],
+          [7.0669, 43.5761]   // NERAS
+        ]
+      },
+      "properties": {
+        "name": "Transition depuis STAR",
+        "phase": "Arrival Transition",
+        "altitude": "Descente vers 3000 ft",
+        "description": "Arrivée typique vers NERAS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.2150, 43.6653],  // Seuil 04L
+          [7.2200, 43.6690],
+          [7.2250, 43.6730],
+          [7.2300, 43.6770],
+          [7.2350, 43.6810],
+          [7.2400, 43.6850]   // Fin de piste
+        ]
+      },
+      "properties": {
+        "name": "Axe de piste 04L",
+        "phase": "Runway",
+        "track": "043°",
+        "length": "2570 m",
+        "elevation": "12 ft"
       }
     }
   ]
