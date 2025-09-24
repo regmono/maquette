@@ -86,21 +86,21 @@
         "runway": "32R",
         "segment": "THR→FAF",
         "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.619,
-        "thr_lon": 1.37217,
-        "faf_lat": 43.516361,
-        "faf_lon": 1.478528
+        "thr_lat": 43.6189806,
+        "thr_lon": 1.3721062,
+        "faf_lat": 43.513028,
+        "faf_lon": 1.486389
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            1.37217,
-            43.619
+            1.3721062,
+            43.6189806
           ],
           [
-            1.478528,
-            43.516361
+            1.486389,
+            43.513028
           ]
         ]
       }
