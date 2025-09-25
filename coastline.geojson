@@ -10,17 +10,17 @@
         "runway": "04L",
         "waypoints": ["BISBO", "FN04A", "MN04A"],
         "waypoint_details": {
-          "BISBO": "Initial approach waypoint (IF/RF leg, ~10-15 NM from airport)",
-          "FN04A": "FAF (Final Approach Fix) for final RNP segment (~5 NM from runway)",
-          "MN04A": "Missed Approach Point / End of approach (aligned on 042° to runway, ~2-3 NM before THR 04L)"
+          "BISBO": "Initial approach waypoint (IF/RF leg, ~10-15 NM from airport) - 43°27'44.4\"N / 007°09'48.5\"E",
+          "FN04A": "FAF (Final Approach Fix) for final RNP segment (~5 NM from runway) - 43°30'38.0\"N / 007°09'31.8\"E (SIA)",
+          "MN04A": "MAPT (Missed Approach Point) on FNA RNP A RWY 04 approach - 43°33'43.6\"N / 007°09'14.0\"E"
         }
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [7.1635, 43.4623],
-          [7.1800, 43.6625],
-          [7.2000, 43.6600]
+          [7.1588, 43.5106],
+          [7.1539, 43.5621]
         ]
       }
     }
