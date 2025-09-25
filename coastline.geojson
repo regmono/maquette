@@ -4,15 +4,15 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RNAV 04L LFMN Approach - Simplified",
+        "name": "RNAV 04L LFMN Approach - Smoothed",
         "procedure": "RNP A 04L",
         "airport": "LFMN",
         "runway": "04L",
-        "waypoints": ["BISBO", "FN04A", "INTERSECTION", "THR04L"],
+        "waypoints": ["BISBO", "FN04A", "SMOOTH_CURVE", "THR04L"],
         "waypoint_details": {
           "BISBO": "IAF/IF (proc. RNP Nice) - 43°27'44.4\"N / 007°09'48.5\"E",
           "FN04A": "FAF (proc. RNP 04) - 43°30'38.0\"N / 007°09'31.8\"E",
-          "INTERSECTION": "Intersection (LEMPU–THR04L ∩ BISBO–MN04A) - 43°36'42.07\"N / 007°08'56.86\"E",
+          "SMOOTH_CURVE": "Smoothed curve between FN04A and THR04L",
           "THR04L": "Seuil piste 04L - 43°39'06.51\"N / 007°12'14.55\"E"
         }
       },
@@ -21,7 +21,12 @@
         "coordinates": [
           [7.16347, 43.46233],
           [7.15883, 43.51056],
-          [7.14912, 43.61169],
+          [7.15883, 43.51056],
+          [7.14337, 43.54982],
+          [7.14015, 43.58357],
+          [7.14920, 43.61182],
+          [7.17049, 43.63457],
+          [7.20404, 43.65181],
           [7.20404, 43.65181]
         ]
       }
