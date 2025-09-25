@@ -8,18 +8,16 @@
         "procedure": "RNP A 04L",
         "airport": "LFMN",
         "runway": "04L",
-        "waypoints": ["BISBO", "FN04A", "MN04A"],
-        "distances": {
-          "BISBO_to_FN04A": "2.9 NM",
-          "note": "BISBO positioned 2.9 NM before FAF FN04A on approach axis"
-        }
+        "waypoints": ["BISBO", "FNA04A", "MN04A", "LEMPU", "FN04L"]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.145000, 43.755000],
+          [7.150000, 43.750000],
           [7.180000, 43.720000],
-          [7.200000, 43.690000]
+          [7.200000, 43.690000],
+          [7.210000, 43.670000],
+          [7.215000, 43.665000]
         ]
       }
     }
