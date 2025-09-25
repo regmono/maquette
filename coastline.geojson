@@ -10,7 +10,7 @@
         "runway": "17L",
         "waypoints": ["EKMEP", "FAF17L", "THR17L"],
         "waypoint_details": {
-          "EKMEP": "Initial Approach Fix - 45°51'49.0\"N / 004°41'58.0\"E",
+          "EKMEP": "Initial Approach Fix - 45°55'41.4\"N / 005°04'05.9\"E",
           "FAF17L": "Final Approach Fix ILS 17L - 45°50'52.3\"N / 005°04'41.2\"E",
           "THR17L": "Seuil piste 17L - 45°44'05.8\"N / 005°05'30.7\"E"
         }
@@ -18,7 +18,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [4.699444, 45.863611],
+          [5.068306, 45.928167],
           [5.078111, 45.847861],
           [5.091869, 45.734942]
         ]
