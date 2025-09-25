@@ -1,38 +1,106 @@
 {
   "type": "FeatureCollection",
+  "name": "LFMN_points_suite",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "name": "RNAV 04L LFMN Approach",
-        "procedure": "RNP A 04L",
-        "airport": "LFMN",
-        "runway": "04L",
-        "waypoints": ["BISBO", "FN04A", "MN04A", "LEMPU", "FN04L", "THR04L"],
-        "waypoint_details": {
-          "BISBO": "IAF/IF (proc. RNP Nice) - 43°27'44.4\"N / 007°09'48.5\"E",
-          "FN04A": "FAF (proc. RNP 04) - 43°30'38.0\"N / 007°09'31.8\"E",
-          "MN04A": "MAPT (proc. FNA RNP A 04) - 43°33'43.6\"N / 007°09'14.0\"E",
-          "LEMPU": "IAF/IF (proc. RNP Y 04L) - 43°28'12.5\"N / 006°57'19.4\"E",
-          "FN04L": "FAF (final 04L) - 43°31'14.28\"N / 007°10'07.56\"E",
-          "THR04L": "Seuil piste 04L - 43°39'06.51\"N / 007°12'14.55\"E"
-        },
-        "intersection_point": {
-          "ident": "X_LEMPU-THR04L__BISBO-MN04A",
-          "coordinates": [7.149127319516975, 43.611686639178515],
-          "role": "Intersection des axes LEMPU-THR04L et BISBO-MN04A"
-        }
+        "ident": "BISBO",
+        "role": "IAF/IF (proc. RNP Nice)",
+        "lat_dms": "43°27'44.4\"N",
+        "lon_dms": "007°09'48.5\"E",
+        "source": "AIP FR ENR 4.4"
       },
       "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [7.1634722222222225, 43.46233333333333],
-          [7.158833333333334, 43.510555555555555],
-          [7.153888888888889, 43.56211111111111],
-          [6.955388888888889, 43.47013888888889],
-          [7.168766666666667, 43.52063333333333],
-          [7.204041666666667, 43.651808333333335]
-        ]
+        "type": "Point",
+        "coordinates": [7.1634722222222225, 43.46233333333333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ident": "FN04A",
+        "role": "FAF (proc. RNP 04)",
+        "lat_dms": "43°30'38.0\"N",
+        "lon_dms": "007°09'31.8\"E",
+        "source": "AIP FR ENR 4.4 / AD LFMN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.158833333333334, 43.510555555555555]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ident": "MN04A",
+        "role": "MAPT (proc. FNA RNP A 04)",
+        "lat_dms": "43°33'43.6\"N",
+        "lon_dms": "007°09'14.0\"E",
+        "source": "AIP FR / Proc. LFMN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.153888888888889, 43.56211111111111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ident": "LEMPU",
+        "role": "IAF/IF (proc. RNP Y 04L)",
+        "lat_dms": "43°28'12.5\"N",
+        "lon_dms": "006°57'19.4\"E",
+        "source": "AIP FR ENR 4.4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.955388888888889, 43.47013888888889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ident": "FN04L",
+        "role": "FAF (final 04L)",
+        "lat_dms": "43°31'14.28\"N",
+        "lon_dms": "007°10'07.56\"E",
+        "source": "AIP FR ENR 4.4 / AD LFMN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.168766666666667, 43.52063333333333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ident": "THR04L",
+        "role": "Seuil piste 04L",
+        "lat_dms": "43°39'06.51\"N",
+        "lon_dms": "007°12'14.55\"E",
+        "source": "AD 2 LFMN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.204041666666667, 43.651808333333335]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ident": "X_LEMPU-THR04L__BISBO-MN04A",
+        "role": "Intersection des axes",
+        "lat_dd": 43.611686639178515,
+        "lon_dd": 7.149127319516975,
+        "lat_dms": "43°36'42.07\"N",
+        "lon_dms": "007°08'56.86\"E",
+        "note": "Intersection des droites (LEMPU–THR04L) et (BISBO–MN04A) en projection locale",
+        "source": "Calcul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.149127319516975, 43.611686639178515]
       }
     }
   ]
