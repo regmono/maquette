@@ -4,6 +4,29 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "ILS 17L LFLL Approach",
+        "procedure": "ILS Z / LOC Z 17L",
+        "airport": "LFLL",
+        "runway": "17L",
+        "waypoints": ["EKMEP", "FAF17L", "THR17L"],
+        "waypoint_details": {
+          "EKMEP": "Initial Approach Fix - 45°51'49.0\"N / 004°41'58.0\"E",
+          "FAF17L": "Final Approach Fix ILS 17L - 45°50'52.3\"N / 005°04'41.2\"E",
+          "THR17L": "Seuil piste 17L - 45°44'05.8\"N / 005°05'30.7\"E"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.699444, 45.863611],
+          [5.078111, 45.847861],
+          [5.091869, 45.734942]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "icao": "LFMN",
         "runway": "04L",
         "segment": "THR→FAF",
@@ -138,26 +161,6 @@
         "coordinates": [
           [5.197316667, 43.449138889],
           [4.996194444, 43.589861111]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "icao": "LFLL",
-        "runway": "17L",
-        "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 45.734941667,
-        "thr_lon": 5.091869444,
-        "faf_lat": 45.847861111,
-        "faf_lon": 5.078111111
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [5.091869444, 45.734941667],
-          [5.078111111, 45.847861111]
         ]
       }
     },
