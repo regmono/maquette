@@ -1,21 +1,27 @@
 {
   "type": "FeatureCollection",
-  "name": "LFMN_BISBO",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "ident": "BISBO",
-        "type": "IFR_WPT",
-        "source": "AIP France ENR 4.4",
-        "lat_dd": 43.46233333333333,
-        "lon_dd": 7.1634722222222225,
-        "lat_dms": "43°27'44.4\"N",
-        "lon_dms": "007°09'48.5\"E"
+        "name": "RNAV 04L LFMN Approach",
+        "procedure": "RNP A 04L",
+        "airport": "LFMN",
+        "runway": "04L",
+        "waypoints": ["BISBO", "FN04A", "MN04A"],
+        "waypoint_details": {
+          "BISBO": "Initial approach waypoint (IF/RF leg, ~10-15 NM from airport)",
+          "FN04A": "FAF (Final Approach Fix) for final RNP segment (~5 NM from runway)",
+          "MN04A": "Missed Approach Point / End of approach (aligned on 042° to runway, ~2-3 NM before THR 04L)"
+        }
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [7.1634722222222225, 43.46233333333333]
+        "type": "LineString",
+        "coordinates": [
+          [7.1635, 43.4623],
+          [7.1800, 43.6625],
+          [7.2000, 43.6600]
+        ]
       }
     }
   ]
