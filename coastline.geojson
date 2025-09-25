@@ -28,4 +28,203 @@
         "runway": "31R",
         "segment": "THR→FAF",
         "approach": "ILS Z / LOC Z",
-        "thr
+        "thr_lat": 43.427261111,
+        "thr_lon": 5.228455556,
+        "faf_lat": 43.379916667,
+        "faf_lon": 5.295722222
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.228455556, 43.427261111],
+          [5.295722222, 43.379916667]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFLL",
+        "runway": "35R",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 45.711,
+        "thr_lon": 5.09483,
+        "faf_lat": 45.599944,
+        "faf_lon": 5.10825
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.09483, 45.711],
+          [5.10825, 45.599944]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFBO",
+        "runway": "32R",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 43.615636,
+        "thr_lon": 1.380236,
+        "faf_lat": 43.513028,
+        "faf_lon": 1.486389
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [1.380236, 43.615636],
+          [1.486389, 43.513028]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFSB",
+        "runway": "33",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 47.595,
+        "thr_lon": 7.525666667,
+        "faf_lat": 47.358388889,
+        "faf_lon": 7.689416667
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.525666667, 47.595],
+          [7.689416667, 47.358388889]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFMN",
+        "runway": "22R",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 43.668544444,
+        "thr_lon": 7.227061111,
+        "faf_lat": 43.659972222,
+        "faf_lon": 7.335222222
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.227061111, 43.668544444],
+          [7.335222222, 43.659972222]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFML",
+        "runway": "13L",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 43.449138889,
+        "thr_lon": 5.197316667,
+        "faf_lat": 43.589861111,
+        "faf_lon": 4.996194444
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.197316667, 43.449138889],
+          [4.996194444, 43.589861111]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFLL",
+        "runway": "17L",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 45.734941667,
+        "thr_lon": 5.091869444,
+        "faf_lat": 45.847861111,
+        "faf_lon": 5.078111111
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.091869444, 45.734941667],
+          [5.078111111, 45.847861111]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFBO",
+        "runway": "14L",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 43.637356,
+        "thr_lon": 1.3576,
+        "faf_lat": 43.74,
+        "faf_lon": 1.250444444
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [1.3576, 43.637356],
+          [1.250444444, 43.74]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "icao": "LFSB",
+        "runway": "15",
+        "segment": "THR→FAF",
+        "approach": "ILS Z / LOC Z",
+        "thr_lat": 47.617683333,
+        "thr_lon": 7.509875,
+        "faf_lat": 47.757861111,
+        "faf_lon": 7.411166667
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.509875, 47.617683333],
+          [7.411166667, 47.757861111]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RNAV 04L LFMN Approach - Simplified",
+        "procedure": "RNP A 04L",
+        "airport": "LFMN",
+        "runway": "04L",
+        "waypoints": ["BISBO", "FN04A", "INTERSECTION", "THR04L"],
+        "waypoint_details": {
+          "BISBO": "IAF/IF (proc. RNP Nice) - 43°27'44.4\"N / 007°09'48.5\"E",
+          "FN04A": "FAF (proc. RNP 04) - 43°30'38.0\"N / 007°09'31.8\"E",
+          "INTERSECTION": "Intersection (LEMPU–THR04L ∩ BISBO–MN04A) - 43°36'42.07\"N / 007°08'56.86\"E",
+          "THR04L": "Seuil piste 04L - 43°39'06.51\"N / 007°12'14.55\"E"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.16347, 43.46233],
+          [7.15883, 43.51056],
+          [7.14912, 43.61169],
+          [7.20404, 43.65181]
+        ]
+      }
+    }
+  ]
+}
