@@ -1,24 +1,21 @@
 {
   "type": "FeatureCollection",
+  "name": "LFMN_BISBO",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "name": "RNAV 04L LFMN Approach",
-        "procedure": "RNP A 04L",
-        "airport": "LFMN",
-        "runway": "04L",
-        "waypoints": ["BISBO", "FNA04A", "MN04A", "LEMPU", "FN04L"]
+        "ident": "BISBO",
+        "type": "IFR_WPT",
+        "source": "AIP France ENR 4.4",
+        "lat_dd": 43.46233333333333,
+        "lon_dd": 7.1634722222222225,
+        "lat_dms": "43°27'44.4\"N",
+        "lon_dms": "007°09'48.5\"E"
       },
       "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [7.210000, 43.630000],
-          [7.180000, 43.720000],
-          [7.200000, 43.690000],
-          [7.210000, 43.670000],
-          [7.215000, 43.665000]
-        ]
+        "type": "Point",
+        "coordinates": [7.1634722222222225, 43.46233333333333]
       }
     }
   ]
