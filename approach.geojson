@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Approach Path from BISBO to THR 04L"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.1635, 43.4623],   # BISBO
+          [7.1588, 43.5106],   # FN04A
+          [7.1539, 43.5621],   # MN04A
+          [6.9554, 43.4702],   # LEMPU
+          [7.1688, 43.5207]    # THR 04L
+        ]
+      }
+    }
+  ]
+}
