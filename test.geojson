@@ -1,18 +1,13 @@
 {
   "type": "FeatureCollection",
   "features": [
-    // --- LFMN ---
     {
       "type": "Feature",
       "properties": {
         "icao": "LFMN",
         "runway": "04L",
         "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.65233,
-        "thr_lon": 7.20483,
-        "faf_lat": 43.506222,
-        "faf_lon": 7.004611
+        "approach": "ILS Z / LOC Z"
       },
       "geometry": {
         "type": "LineString",
@@ -28,11 +23,7 @@
         "icao": "LFMN",
         "runway": "22R",
         "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.668544444,
-        "thr_lon": 7.227061111,
-        "faf_lat": 43.659972222,
-        "faf_lon": 7.335222222
+        "approach": "ILS Z / LOC Z"
       },
       "geometry": {
         "type": "LineString",
@@ -67,19 +58,13 @@
         ]
       }
     },
-
-    // --- LFML ---
     {
       "type": "Feature",
       "properties": {
         "icao": "LFML",
         "runway": "13L",
         "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.449138889,
-        "thr_lon": 5.197316667,
-        "faf_lat": 43.589861111,
-        "faf_lon": 4.996194444
+        "approach": "ILS Z / LOC Z"
       },
       "geometry": {
         "type": "LineString",
@@ -95,11 +80,7 @@
         "icao": "LFML",
         "runway": "31R",
         "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.427261111,
-        "thr_lon": 5.228455556,
-        "faf_lat": 43.379916667,
-        "faf_lon": 5.295722222
+        "approach": "ILS Z / LOC Z"
       },
       "geometry": {
         "type": "LineString",
@@ -109,19 +90,13 @@
         ]
       }
     },
-
-    // --- LFLL ---
     {
       "type": "Feature",
       "properties": {
         "icao": "LFLL",
         "runway": "17L",
         "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 45.734941667,
-        "thr_lon": 5.091869444,
-        "faf_lat": 45.847861111,
-        "faf_lon": 5.078111111
+        "approach": "ILS Z / LOC Z"
       },
       "geometry": {
         "type": "LineString",
@@ -138,13 +113,7 @@
         "runway": "35R",
         "segment": "INGUV→FAF",
         "approach": "ILS Z / LOC Z",
-        "iaf_name": "INGUV",
-        "iaf_lat": 45.5296667,
-        "iaf_lon": 5.11675,
-        "faf_lat": 45.599944,
-        "faf_lon": 5.10825,
-        "thr_lat": 45.711,
-        "thr_lon": 5.09483
+        "iaf_name": "INGUV"
       },
       "geometry": {
         "type": "LineString",
@@ -154,19 +123,13 @@
         ]
       }
     },
-
-    // --- LFBO ---
     {
       "type": "Feature",
       "properties": {
         "icao": "LFBO",
         "runway": "14L",
         "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.637356,
-        "thr_lon": 1.3576,
-        "faf_lat": 43.74,
-        "faf_lon": 1.250444444
+        "approach": "ILS Z / LOC Z"
       },
       "geometry": {
         "type": "LineString",
@@ -182,11 +145,7 @@
         "icao": "LFBO",
         "runway": "32R",
         "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 43.615636,
-        "thr_lon": 1.380236,
-        "faf_lat": 43.513028,
-        "faf_lon": 1.486389
+        "approach": "ILS Z / LOC Z"
       },
       "geometry": {
         "type": "LineString",
@@ -196,19 +155,13 @@
         ]
       }
     },
-
-    // --- LFSB ---
     {
       "type": "Feature",
       "properties": {
         "icao": "LFSB",
         "runway": "15",
         "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 47.617683333,
-        "thr_lon": 7.509875,
-        "faf_lat": 47.757861111,
-        "faf_lon": 7.411166667
+        "approach": "ILS Z / LOC Z"
       },
       "geometry": {
         "type": "LineString",
@@ -224,135 +177,13 @@
         "icao": "LFSB",
         "runway": "33",
         "segment": "THR→FAF",
-        "approach": "ILS Z / LOC Z",
-        "thr_lat": 47.595,
-        "thr_lon": 7.525666667,
-        "faf_lat": 47.358388889,
-        "faf_lon": 7.689416667
+        "approach": "ILS Z / LOC Z"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [7.525666667, 47.595],
           [7.689416667, 47.358388889]
-        ]
-      }
-    },
-
-    // --- Other features (not grouped by ICAO/runway) ---
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CTR_LFSB",
-        "description": "Partie ouest du cercle fermée par le segment",
-        "radius_nm": 6.5,
-        "center": [7.529167, 47.59]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [7.593333, 47.689167],
-            // ...existing coordinates...
-            [7.593333, 47.689167]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CTR LFBO"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [1.301667, 43.836111],
-            // ...existing coordinates...
-            [1.301667, 43.836111]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CTR SAINT EXUPERY",
-        "class": "CTR"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [5.2, 45.83777777777778],
-            // ...existing coordinates...
-            [5.2, 45.83777777777778]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CTR_A (existant)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [7.433333, 43.751667],
-            // ...existing coordinates...
-            [7.433333, 43.751667]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CTR_B (nouvelle)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [7, 43.64222222222222],
-            // ...existing coordinates...
-            [7, 43.64222222222222]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CTR_C (nouvelle)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [7.1, 43.520833333333336],
-            // ...existing coordinates...
-            [7.1, 43.520833333333336]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CTR LFML"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [5.054167, 43.581944],
-            // ...existing coordinates...
-            [5.054167, 43.581944]
-          ]
         ]
       }
     }
