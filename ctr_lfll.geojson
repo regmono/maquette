@@ -121,7 +121,7 @@
         "name": "RNAV 04L LFMN Approach - Simplified",
         "procedure": "RNP A 04L",
         "airport": "LFMN",
-        "runway": "04L",
+        "runway": "04L",  
         "waypoints": [
           "BISBO",
           "FN04A",
@@ -161,7 +161,8 @@
         "type": "LineString",
         "coordinates": [
           [7.227061111, 43.668544444],
-          [7.335222222, 43.659972222]
+          [7.335222222, 43.659972222],
+          [7.13444, 43.5925]
         ]
       }
     },
