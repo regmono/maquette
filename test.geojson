@@ -4,21 +4,111 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "IFR fly-by (150 kt standard rate)",
-        "description": "Points 1,2 + arc (5 points) + 4"
+        "name": "Procédure IFR avec Fly-By",
+        "type": "trajectory"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [7.16347, 43.46233],
           [7.15883, 43.51056],
-          [7.149695, 43.605703],
-          [7.149838, 43.608514],
-          [7.150797, 43.611239],
-          [7.152529, 43.613756],
-          [7.154955, 43.615952],
+          [7.15571, 43.54803],
+          [7.15279, 43.56666],
+          [7.15149, 43.58538],
+          [7.15498, 43.60369],
           [7.20404, 43.65181]
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point 1",
+        "pointNumber": 1,
+        "type": "waypoint",
+        "description": "Point de départ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.16347, 43.46233]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point 2",
+        "pointNumber": 2,
+        "type": "waypoint",
+        "description": "Dernier point avant virage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.15883, 43.51056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point 3",
+        "pointNumber": 3,
+        "type": "fly-by-arc",
+        "description": "Début de l'arc de virage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.15571, 43.54803]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point 4",
+        "pointNumber": 4,
+        "type": "fly-by-arc",
+        "description": "Arc de virage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.15279, 43.56666]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point 5",
+        "pointNumber": 5,
+        "type": "fly-by-arc",
+        "description": "Milieu de l'arc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.15149, 43.58538]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point 6",
+        "pointNumber": 6,
+        "type": "fly-by-arc",
+        "description": "Fin de l'arc de virage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.15498, 43.60369]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point 7",
+        "pointNumber": 7,
+        "type": "final",
+        "description": "Point final sur l'axe de finale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.20404, 43.65181]
       }
     }
   ]
